@@ -11,3 +11,5 @@ def ordinary():
 #ordinary 
 pretty = make_pretty(ordinary)
 pretty()
+
+#extraordinary
