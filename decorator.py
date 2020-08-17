@@ -1,6 +1,6 @@
 def make_pretty(func):
     def inner():
-        print("I got decorated")
+        print("I got decorated first")
         func()
     return inner
 
@@ -8,5 +8,6 @@ def make_pretty(func):
 def ordinary():
     print("I am ordinary")
 
-ordinary 
-make_pretty(ordinary)
+#ordinary 
+pretty = make_pretty(ordinary)
+pretty()
