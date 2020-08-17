@@ -8,8 +8,13 @@ def make_pretty(func):
 def ordinary():
     print("I am ordinary")
 
-#ordinary 
+ordinary() 
 pretty = make_pretty(ordinary)
 pretty()
 
 #extraordinary
+@make_pretty
+def ordinary2():
+    print("I am ordinary 2")
+
+ordinary2()
