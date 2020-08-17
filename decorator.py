@@ -5,11 +5,11 @@ def make_pretty(func):
     return inner
 
 
-def ordinary():
+def ordinarious():
     print("I am ordinary")
 
 #ordinary 
-pretty = make_pretty(ordinary)
+pretti = make_pretty(ordinary)
 pretty()
 
 #extraordinary
