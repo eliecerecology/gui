@@ -12,5 +12,5 @@ def ordinarious():
 pretti = make_pretty(ordinary)
 pretty()
 
-#extraSHIT_local
+#extraSHIT_remote
 
