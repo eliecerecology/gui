@@ -6,11 +6,11 @@ def make_pretty(func):
 
 
 def ordinarious():
-    print("I am ordinary")
+    print("I am ordinary"):
 
 #ordinary 
 pretti = make_pretty(ordinary)
 pretty()
 
-#extraSHIT_remote
+#extraSHIT_remote_remote
 
